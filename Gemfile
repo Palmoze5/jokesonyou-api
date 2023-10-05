@@ -8,14 +8,14 @@ gem 'bcrypt', '~> 3.1.11'
 gem 'pg', '~> 0.21'
 gem 'puma', '~> 4.3.11'
 gem 'rack-cors', '~> 1.0.5', require: 'rack/cors'
-gem 'rails', '~> 5.2.6', '>= 5.2.6.3'
+gem 'rails', '~> 7.1.0'
 
 group :development, :test do
   gem 'byebug', '~> 10.0.0', platform: :mri
-  gem 'dotenv-rails', '~> 2.2.2'
+  gem 'dotenv-rails', '~> 2.7.6'
   gem 'pry', '~> 0.11.3'
   gem 'pry-byebug', '~> 3.6.0'
-  gem 'rspec-rails', '~> 3.7.2'
+  gem 'rspec-rails', '~> 3.8.0'
   gem 'rubocop', '~> 0.52.1'
 end
 
